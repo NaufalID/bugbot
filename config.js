@@ -22,10 +22,10 @@ global.autorecording = false //status auto merekam ( auto record )
 global.autoketik = true //status auto mengetik (auto typing)
 global.available = false //status online (online)
 // Other
-global.owner = ['6282146218274']
-global.premium = ['6282146218274']
-global.packname = '©'
-global.author = 'A17-MD'
+global.owner = ['6289601124991']
+global.premium = ['6289601124991']
+global.packname = '© Naufal Muflih'
+global.author = 'Naufal Muflih'
 global.wlcm = []
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
