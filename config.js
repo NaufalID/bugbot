@@ -13,19 +13,19 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': '0e92565522',
+	'https://zenzapis.xyz': 'Your Key',
 }
 
 
-global.ownername = 'Naufal Muflih'
+global.ownername = 'THE JO BOT'
 global.autorecording = false //status auto merekam ( auto record )
-global.autoketik = true //status auto mengetik (auto typing)
+global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 // Other
-global.owner = ['6289601124991']
-global.premium = ['6289601124991']
-global.packname = '© Naufal Muflih'
-global.author = 'Naufal Muflih'
+global.owner = ['60177426853','60177426853','60177426853']
+global.premium = ['60177426853']
+global.packname = 'The Jo Bot'
+global.author = 'WhatsApp Bot'
 global.wlcm = []
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
