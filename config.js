@@ -13,11 +13,11 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zenzapis.xyz': '0e92565522',
 }
 
 
-global.ownername = 'Ir.adam'
+global.ownername = 'Naufal Muflih'
 global.autorecording = false //status auto merekam ( auto record )
 global.autoketik = true //status auto mengetik (auto typing)
 global.available = false //status online (online)
