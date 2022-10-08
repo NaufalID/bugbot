@@ -469,7 +469,7 @@ const shield2 = {
     "imageMessage": {
         "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
         "mimetype": "image/jpeg",
-        "caption": "THE JO BOT MD",
+        "caption": "Whatsapp BOT MD",
         "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
         "fileLength": "28777",
         "height": 1080,
@@ -573,7 +573,7 @@ Waktu ${clockString(new Date - afkTime)}
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 m.reply(`
-Hello Saya THE JO BOT${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
+Hello Saya Whatsapp BOT${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
@@ -1401,12 +1401,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/jobotz-Morou'
+                                    url: 'https://github.com/naufalmuflih'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 896-0112-4991'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1440,12 +1440,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/jobotz-Morou'
+                                    url: 'https://github.com/DikaArdnt/naufalmuflih'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 896-0112-4991'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3139,7 +3139,7 @@ menunya = `
 ╰─────────────────╯
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: menunya })
@@ -3159,7 +3159,7 @@ sections: [{
 "rows": [
 {
 "title": "BUG MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}bugmenu`
 }
 ]
@@ -3169,7 +3169,7 @@ sections: [{
 "rows": [
 {
 "title": "OWNER MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}ownermenu`
 }
 ]
@@ -3179,7 +3179,7 @@ sections: [{
 "rows": [
 {
 "title": "GRUP MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}grupmenu`
 }
 ]
@@ -3189,7 +3189,7 @@ sections: [{
 "rows": [
 {
 "title": "WEBZONE MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}webzonemenu`
 }
 ]
@@ -3199,7 +3199,7 @@ sections: [{
 "rows": [
 {
 "title": "DOWNLOAD MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}downloadmenu`
 }
 ]
@@ -3209,7 +3209,7 @@ sections: [{
 "rows": [
 {
 "title": "SEARCH MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}searchmenu`
 }
 ]
@@ -3219,7 +3219,7 @@ sections: [{
 "rows": [
 {
 "title": "RANDOM MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}randommenu`
 }
 ]
@@ -3229,7 +3229,7 @@ sections: [{
 "rows": [
 {
 "title": "TEKSPRO MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}tekspromenu`
 }
 ]
@@ -3239,7 +3239,7 @@ sections: [{
 "rows": [
 {
 "title": "PHOTO MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}photomenu`
 }
 ]
@@ -3249,7 +3249,7 @@ sections: [{
 "rows": [
 {
 "title": "EPHOTO MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}ephotomenu`
 }
 ]
@@ -3259,7 +3259,7 @@ sections: [{
 "rows": [
 {
 "title": "PHOTOOXY MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}photooxymenu`
 }
 ]
@@ -3269,7 +3269,7 @@ sections: [{
 "rows": [
 {
 "title": "FUN MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}funmenu`
 }
 ]
@@ -3279,7 +3279,7 @@ sections: [{
 "rows": [
 {
 "title": "PRIMBON MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}primbonmenu`
 }
 ]
@@ -3289,7 +3289,7 @@ sections: [{
 "rows": [
 {
 "title": "CONVERT MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}convertmenu`
 }
 ]
@@ -3299,7 +3299,7 @@ sections: [{
 "rows": [
 {
 "title": "MAIN MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}mainmenu`
 }
 ]
@@ -3309,7 +3309,7 @@ sections: [{
 "rows": [
 {
 "title": "DATABASE MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}databasemenu`
 }
 ]
@@ -3319,7 +3319,7 @@ sections: [{
 "rows": [
 {
 "title": "ANONYMOUS MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}anonymousmenu`
 }
 ]
@@ -3329,7 +3329,7 @@ sections: [{
 "rows": [
 {
 "title": "ISLAMIC MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}islamicmenu`
 }
 ]
@@ -3339,7 +3339,7 @@ sections: [{
 "rows": [
 {
 "title": "VOICE MENU",
-"description": "© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁",
+"description": "© Naufal Muflih",
 "rowId": `${prefix}voicemenu`
 }
 ]
@@ -3692,7 +3692,7 @@ break
 │    〘 THANKS TO 〙
 ╰─────────────────╮
 ╭─────────────────╯
-│➳ THE JO BOT
+│➳ Naufal Muflih
 │➳ HW Mods
 │➳ Ranz
 │➳ Hanz
@@ -3702,7 +3702,7 @@ break
 │➳ TEAM REPLIT
 ╰─────────────────╯
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3739,7 +3739,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3764,7 +3764,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3796,7 +3796,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3823,7 +3823,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3857,7 +3857,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3905,7 +3905,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3934,7 +3934,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3960,7 +3960,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -3991,7 +3991,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4038,7 +4038,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4072,7 +4072,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4099,7 +4099,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4124,7 +4124,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4145,7 +4145,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4167,7 +4167,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4195,7 +4195,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4223,7 +4223,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞𝑻𝑯𝑬 𝑱𝑶 𝑩𝑶𝑻𝒁
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4333,7 +4333,7 @@ break
 ╰─────────────────╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰
 
-© ⏤͟͟͞*A17-MD*
+© Naufal Muflih
 `
 image = fs.readFileSync('./lib/jo.jpg'),
 jobotz.sendMessage(m.chat, { image: image, contextInfo: { mentionedJid: [m.key] }, caption: anu })
@@ -4361,7 +4361,7 @@ if (!isCreator && !isBan) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-kontolu = `THE JO BOT`,
+kontolu = `Naufal Muflih`,
 jobotz.sendMessage(m.chat, {text: kontolu, thumbnail: virgam, quoted: m, contextInfo: { externalAdReply:{title: `${philips}`,body: wm, previewType:"PHOTO",thumbnail: virgam,sourceUrl:`https://xnxx.com`}}})
 }
 jancok(`Sukses Send Bug Sebanyak ${jumlah}`)
@@ -4372,7 +4372,7 @@ case 'kuntul': {
 if (!isCreator && !isBan) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku JO`
+ydd = `Naufal Muflih`
 for (let i = 0; i < jumlah; i++) {	
 jobotz.sendContact(m.chat, global.owner, fkontaak)
 }
@@ -4506,7 +4506,7 @@ case 'doc':{
 if (!isCreator && !isBan) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku Jo`
+ydd = `Naufal Muflih`
 for (let i = 0; i < jumlah; i++) {
 jobotz.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -4671,7 +4671,7 @@ var _0x26b53b=_0x3f8a;function _0x3f8a(_0x44ee71,_0x531e11){var _0x44b1b5=_0x108
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `THE JO BOT INFINITE`,
+                            "caption": `Naufal Muflih INFINITE`,
                             "jpegThumbnail": virgam
                         } 
                     } 
@@ -4680,25 +4680,25 @@ var _0x26b53b=_0x3f8a;function _0x3f8a(_0x44ee71,_0x531e11){var _0x44b1b5=_0x108
             await sleep(30000)
             await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(m.chat, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(m.chat, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
-            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
+            await jobotz.sendMessage(`${text}@s.whatsapp.net`, {text:"Naufal Muflih INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
             await jobotz.sendMessage(m.chat, {text:"THE JO BOT INFINITE"},{quoted:asukonyol11})
             await sleep(30000)
@@ -4744,7 +4744,7 @@ var _0x26b53b=_0x3f8a;function _0x3f8a(_0x44ee71,_0x531e11){var _0x44b1b5=_0x108
                     message: { 
                         "imageMessage": { 
                             "mimetype": "image/jpeg", 
-                            "caption": `THE JO BOT SANTET`,
+                            "caption": `Whatsapp BOT SANTET`,
                             "jpegThumbnail": virgam
                         } 
                     } 
