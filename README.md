@@ -1,27 +1,40 @@
+<p align="center">
+	<img src="https://telegra.ph/file/094abb98c63d1fbac703e.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+</p>
+<h1 align="center">THE_JO_BOT</h1>
+
 # CATATAN ( NOTE )
 Script ori - DikaArdnt
 Recode - The Jo Bot
 
-Best Regards. Hisoka
+Jangan dijual kontol!!!
+Gw yg capek lu yg jual yg hanya tinggal nyomot dan rename.
+Kalau cuma rename anak esde jg bisa.
+Rename sewajarnyalah!!!
+Di TQ TO nama gw jgn dihapus bangsat.
 
-# Hisoka-Morou
+Best Regards. The Jo Bot
+
+# THE_JO_BOT
 Script WhatsApp Bot Multi Device
 
 ## NOTE
 This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother !
 
-<p align="center">
-	<img src="https://telegra.ph/file/09cc0981ccf07754d0af6.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
-</p>
-<h1 align="center">Hisoka-Morou</h1>
-
 This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+
+## ```Heroku Buildpack```
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/THEJO307/jo-private)
+
+| BuildPack | LINK |
+|--------|--------|
+| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ## My Project
 * New script to replace this script [`look here`](https://github.com/zhwzein/Killua-Zoldyck) (`Support Legacy or Baileys`)
-* WhatsApp Bot normal [`DikaArdnt/Hisoka-Morrow`](https://github.com/DikaArdnt/Hisoka-Morrow)
-* WhatsApp Bot Multi Device [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
-* WhatsApp Bot Using Library whatsapp-web.js [`hisoka-waweb.js`](https://github.com/Hisoka-Morrou/hisoka-waweb.js/)
+* WhatsApp Bot normal [`THEJO307/jo-private`](https://github.com/THEJO307/jo-private)
+* WhatsApp Bot Multi Device [`THEJO307/jo-private`](https://github.com/THEJO307/jo-private)
 
 
 ## UNTUK PENGGUNA WINDOWS/RDP
@@ -32,8 +45,8 @@ This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](h
 
 
 ```bash
-git clone https://github.com/DikaArdnt/Hisoka-Morou
-cd Hisoka-Morou
+git https://github.com/THEJO307/jo-private
+cd jo-private
 npm install
 ```
 
@@ -53,8 +66,8 @@ apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
-git clone https://github.com/DikaArdnt/Hisoka-Morou
-cd Hisoka-Morou
+git clone https://github.com/THEJO307/jo-private
+cd jo-private
 npm install
 ```
 
@@ -74,12 +87,13 @@ $ node .
 WhatsApp bot is still in the development stage, so there are a few bugs
 WhatsApp Connection (BETA, not working perfectly)
 
-Editing Number Owner & session name in [`config.js`](https://github.com/DikaArdnt/Hisoka-Morou/blob/master/config.js)
+Editing Number Owner & session name in [`config.js`](https://github.com/THEJO307/jo-private/blob/master/config.js)
 Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
 
 
 ## Thanks To
 * [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+* [`DikaArdnt`](https://github.com/DikaArdnt)
 * [`Nurutomo`](https://github.com/Nurutomo)
 * [`Mhankbarbar`](https://github.com/MhankBarBar)
 * [`Faiz`](https://github.com/FaizBastomi)
@@ -95,7 +109,7 @@ Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
 
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
 
-Support Me
+Support DikaArdnt
 * [`Paypal`](https://www.paypal.me/Cakhaho)
 * [`Saweria`](https://saweria.co/DikaArdnt)
 # botmdjo

@@ -1,5 +1,5 @@
 Arguments: 
-  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add heroku
 
 PATH: 
   /data/data/com.termux/files/usr/bin
@@ -8,17 +8,17 @@ Yarn version:
   1.22.19
 
 Node version: 
-  18.2.0
+  18.7.0
 
 Platform: 
   android arm64
 
 Trace: 
-  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/jo-master/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/forsub/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
 
 npm manifest: 
   {
-    "name": "hisoka-morou",
+    "name": "jo-bot",
     "version": "1.2.3",
     "description": "WhatsApp Using Lib Baileys Multi Device",
     "main": "index.js",
